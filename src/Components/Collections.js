@@ -15,7 +15,7 @@ const Collections=()=>{
                
                
                 <div className="card">
-  <img className="card-img-top" src={element.image} alt="Card image cap" />
+  <img className="card-img-top" src={element.image} alt="Card" />
   <div className="card-body">
     <h5 className="card-title">{element.text}</h5>
     <p className="card-text">{element.price}</p>
