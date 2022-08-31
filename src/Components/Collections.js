@@ -6,7 +6,7 @@ import { useState } from 'react'
 import './Style.css'
 
 const Collections=()=>{
-    const[data,SetData]=useState(Carddata);
+    const[data]=useState(Carddata);
 
     return(
         <div className='menu'>
